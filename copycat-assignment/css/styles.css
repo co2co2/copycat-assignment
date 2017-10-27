@@ -1,0 +1,125 @@
+
+html {
+    font-size: 1.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #06D6A0;
+    text-align: center;
+    display: block;
+}
+ul{
+  list-style-type: none;
+}
+
+
+img {
+    max-width: 100%;
+  }
+
+.logo {
+  float:left;
+  line-height: 60px;
+  font-size :18px;
+  color: white;
+  margin:0;
+}
+
+nav{
+  float:right;
+}
+.nave-item {
+  display: inline-block;
+  list-style-type: none;
+  margin:0px 1em
+}
+
+main {
+  clear:both;
+  display: block;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  }
+
+section.meow {
+  overflow: hidden;
+  background-color: #26547C;
+  color: white;
+  clear: both;
+
+}
+
+.meow-image {
+    float: left;
+    width: 60%;
+    margin:2%;
+
+
+}
+div.meow-content {
+  float: left;
+  width: 34%;
+  font-size: 25px;
+
+}
+
+h2{
+  margin: 0.83em 0;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+.cat-text {
+    background-color: #FFD166;
+}
+.products {
+  background-color: #F2F2F2;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin:0
+}
+
+.product-item{
+  float: left;
+  width: 30%;
+  border: thick solid black;
+  margin: 1%;
+  display: inline-block;
+
+}
+
+.about {
+    background-color: #26547C;
+    color: white;
+    padding: 30px 20px;}
+
+
+h4 {
+    text-align: center;
+    color: #EF476F;
+    float: left;
+    width: 33%;
+}
+
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+}
